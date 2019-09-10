@@ -1,0 +1,30 @@
+{
+  "name": "react-express",
+  "version": "1.0.0",
+  "description": "An app that runs React with a node layer and express",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "client": "cd ./client && npm start",
+    "server": "npm start",
+    "dev": "concurrently  --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ian-leggett/react-express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ian-leggett/react-express/issues"
+  },
+  "homepage": "https://github.com/ian-leggett/react-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
