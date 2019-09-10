@@ -10,6 +10,6 @@ In the root dir run `npm install`, then in the client dir run `npm install`
 
 Then from the root dir run `npm run dev`
 
-###Enjoy...
+### Enjoy...
 
 
